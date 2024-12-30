@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		63C1F5CD6749FB0D8C1776C5 /* Pods_Login_Signup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FADD90C089D14AB46DD005 /* Pods_Login_Signup.framework */; };
+		820946F42D12E27F00C30DF4 /* PopularCakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820946F32D12E27F00C30DF4 /* PopularCakes.swift */; };
+		820DDCDF2D11C2D700A5AC65 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820DDCDE2D11C2D700A5AC65 /* homeScreenViewController.swift */; };
+		820DDCE12D11CAB700A5AC65 /* MyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820DDCE02D11CAB700A5AC65 /* MyCollectionCell.swift */; };
 		82297AB12D002F950094C1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82297AB02D002F950094C1E3 /* AppDelegate.swift */; };
 		82297AB32D002F950094C1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82297AB22D002F950094C1E3 /* SceneDelegate.swift */; };
 		82297AB52D002F950094C1E3 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82297AB42D002F950094C1E3 /* BasicViewController.swift */; };
@@ -34,9 +37,14 @@
 		822ADD032D09D2E500A85E69 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD022D09D2E500A85E69 /* Font.swift */; };
 		822ADD052D0AC05600A85E69 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD042D0AC05600A85E69 /* UIColorExtensions.swift */; };
 		8283AA672D0AE9B300DA6420 /* ValidationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283AA662D0AE9B300DA6420 /* ValidationUtility.swift */; };
+		82F877502D1457EE002D500A /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F8774F2D1457EE002D500A /* ButtonCollectionViewCell.swift */; };
+		82F877542D19712E002D500A /* CakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F877532D19712E002D500A /* CakeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820946F32D12E27F00C30DF4 /* PopularCakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCakes.swift; sourceTree = "<group>"; };
+		820DDCDE2D11C2D700A5AC65 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		820DDCE02D11CAB700A5AC65 /* MyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell.swift; sourceTree = "<group>"; };
 		82297AAD2D002F950094C1E3 /* Login_Signup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Signup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82297AB02D002F950094C1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82297AB22D002F950094C1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,8 @@
 		822ADD022D09D2E500A85E69 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		822ADD042D0AC05600A85E69 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		8283AA662D0AE9B300DA6420 /* ValidationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtility.swift; sourceTree = "<group>"; };
+		82F8774F2D1457EE002D500A /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		82F877532D19712E002D500A /* CakeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCollectionViewCell.swift; sourceTree = "<group>"; };
 		9E02289DDD6C8441DB943B20 /* Pods-Login_Signup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Signup.release.xcconfig"; path = "Target Support Files/Pods-Login_Signup/Pods-Login_Signup.release.xcconfig"; sourceTree = "<group>"; };
 		A55825D9BB439B74434B76EC /* Pods-Login_Signup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Signup.debug.xcconfig"; path = "Target Support Files/Pods-Login_Signup/Pods-Login_Signup.debug.xcconfig"; sourceTree = "<group>"; };
 		D9FADD90C089D14AB46DD005 /* Pods_Login_Signup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Signup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +133,11 @@
 				82297ABE2D002F960094C1E3 /* Info.plist */,
 				82297AD52D0031570094C1E3 /* Script.sh */,
 				822ADCEF2D0337F400A85E69 /* PrintSystemFonts.swift */,
+				820DDCDE2D11C2D700A5AC65 /* homeScreenViewController.swift */,
+				820DDCE02D11CAB700A5AC65 /* MyCollectionCell.swift */,
+				820946F32D12E27F00C30DF4 /* PopularCakes.swift */,
+				82F8774F2D1457EE002D500A /* ButtonCollectionViewCell.swift */,
+				82F877532D19712E002D500A /* CakeCollectionViewCell.swift */,
 			);
 			path = Login_Signup;
 			sourceTree = "<group>";
@@ -292,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F877542D19712E002D500A /* CakeCollectionViewCell.swift in Sources */,
 				822ADCE22D009CB300A85E69 /* LoginViewController.swift in Sources */,
+				820DDCDF2D11C2D700A5AC65 /* homeScreenViewController.swift in Sources */,
 				822ADCF42D07052200A85E69 /* PasswordTextField.swift in Sources */,
 				822ADD052D0AC05600A85E69 /* UIColorExtensions.swift in Sources */,
 				822ADCF92D096A1600A85E69 /* UITextFieldExtensions.swift in Sources */,
@@ -303,8 +320,11 @@
 				82297AB12D002F950094C1E3 /* AppDelegate.swift in Sources */,
 				822ADCFB2D09719900A85E69 /* UILabelExtensions.swift in Sources */,
 				822ADD032D09D2E500A85E69 /* Font.swift in Sources */,
+				820DDCE12D11CAB700A5AC65 /* MyCollectionCell.swift in Sources */,
 				822ADCF02D0337F400A85E69 /* PrintSystemFonts.swift in Sources */,
+				820946F42D12E27F00C30DF4 /* PopularCakes.swift in Sources */,
 				82297AB32D002F950094C1E3 /* SceneDelegate.swift in Sources */,
+				82F877502D1457EE002D500A /* ButtonCollectionViewCell.swift in Sources */,
 				822ADCE62D0172A700A85E69 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
